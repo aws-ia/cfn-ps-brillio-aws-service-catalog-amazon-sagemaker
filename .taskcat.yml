@@ -1,5 +1,5 @@
 project:
-  name: quickstart-brillio-aws-service-catalog-amazon-sagemaker
+  name: cfn-ps-brillio-aws-service-catalog-amazon-sagemaker
   owner: quickstart@amazon.com
   package_lambda: true
   regions:
@@ -13,7 +13,7 @@ tests:
       Subnet2CidrBlock: 10.0.2.0/24
       ECRRepositoryName: quickstart-sagemaker-repository
       QSS3BucketName: $[taskcat_autobucket]
-      QSS3KeyPrefix: quickstart-brillio-aws-service-catalog-amazon-sagemaker/
+      QSS3KeyPrefix: cfn-ps-brillio-aws-service-catalog-amazon-sagemaker/
       QSS3BucketRegion: $[taskcat_current_region]
       EnableIAMGroup: 'NO'
       SageMakerLaunch: 'YES'
