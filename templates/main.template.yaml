@@ -116,7 +116,7 @@ Parameters:
       the following characters (/,-,_,.).
     Description: ECR repository name.
     Type: String
-    Default: quickstart-repository
+    Default: cfn-ps-repository
   Subnet1CidrBlock:
     AllowedPattern: >-
       ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\/(1[6-9]|2[0-8]))$
@@ -144,7 +144,7 @@ Parameters:
       uppercase letters, and hyphens, but do not start or end with a hyphen (-). 
       See https://aws-quickstart.github.io/option1.html.
     Type: String
-    Default: aws-quickstart
+    Default: aws-ia-us-east-1
   QSS3KeyPrefix:
     AllowedPattern: "^[0-9a-zA-Z-/]*$"
     ConstraintDescription: >-
@@ -240,7 +240,7 @@ Parameters:
     Type: String
   CodeBucketName:
     Description: S3 bucket name from which you want to push code.
-    Default: quickstart-code-bucket
+    Default: cfn-ps-code-bucket
     Type: String
   IAMGroup:
     Description: IAM group for accessing the SageMaker notebook. By default, this IAM role is enabled for accessing the SageMaker notebook.

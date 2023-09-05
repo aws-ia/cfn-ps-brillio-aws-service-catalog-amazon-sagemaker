@@ -127,7 +127,7 @@ Parameters:
     Type: String
   CodeBucketName:
     Description: S3 Bucket name from which you want to push code.
-    Default: quickstart-code-bucket
+    Default: cfn-ps-code-bucket
     Type: String
   EnableIAMGroup:
     Description: IAM Group for accessing SageMaker Notebook (Optional)
