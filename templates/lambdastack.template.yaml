@@ -453,7 +453,7 @@ Resources:
         Fn::GetAtt:
           - LambdaFunctionRole
           - Arn
-      Runtime: python3.6
+      Runtime: python3.9
       Tags:
         - Key: ENVName
           Value:
